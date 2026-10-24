@@ -1,0 +1,6 @@
+# Same as requirements.txt but WITHOUT mlxtend. run_project.bat falls back to this file if mlxtend cannot be installed.
+# The app then uses its built-in Apriori implementation automatically.
+Flask>=3.0,<4.0
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.3
